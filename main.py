@@ -19,8 +19,8 @@ def get_expansion(name_file: str) -> Union [str, None]:
 
 def execute_application():
 
-
-
+    name_file = "file.txt"
+    print(get_expansion(name_file))
 
 if __name__ == "__main__":
     execute_application()
